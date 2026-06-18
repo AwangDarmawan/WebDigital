@@ -142,6 +142,13 @@ export default function Promo() {
           {/* CTA */}
           <div className="mt-10 flex justify-center">
             <button
+              onClick={() =>
+    window.open(
+      "https://wa.me/6283125307355?text=Halo%20saya%20ingin%20memesan%20undangan%20digital",
+      "_blank"
+    )
+  }
+
               className="
               px-8
               py-4

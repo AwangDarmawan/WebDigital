@@ -2,6 +2,8 @@
 import { FaHeart } from "react-icons/fa";
 import { GiLovers } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+
 
 function Intro() {
   const navigate = useNavigate();
@@ -114,21 +116,32 @@ function Intro() {
     "
     />
 
-    <FaHeart
-      className="
-      absolute
-      -top-2
-      -right-2
-
-      text-red-400
-      text-lg
-      animate-pulse
-      hover:scale-150
+<motion.div
+  className="
+    absolute
+    -top-2
+    -right-2
+  "
+  animate={{
+    scale: [1, 1.3, 1, 1.2, 1],
+  }}
+  transition={{
+    duration: 1.2,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+>
+  <FaHeart
+    className="
+      text-red-500
+      text-xl
+      drop-shadow-lg
     "
-    />
-  </div>
+  />
+</motion.div>
 </div>
-          
+</div>
+   
 
         {/* Text */}
         <h2
