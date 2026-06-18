@@ -1,6 +1,6 @@
 
 
-import AboutImage from "../../assets/Img/poto3.png";
+import AboutImage from "../../assets/Img/flix.png";
 
 // import CardProjek from "./CardProjek";
 import KeyFeatures from "./KeyFeature";
