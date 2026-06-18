@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const menuItems = ["Home", "Detail", "Promo", "Tema","Hubungi"];
+  const menuItems = ["Home", "Detail", "Promo", "Tema"];
 
   return (
     <>
