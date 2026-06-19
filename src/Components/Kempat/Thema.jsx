@@ -15,6 +15,7 @@ export const DISCOUNT = 60;
 import nikahflix from "../../assets/Img/nikahflix.png";
 import Bunga from "../../assets/Img/Bunga3.png";
 import Alam from "../../assets/Img/Alam.png";
+import B1 from "../../assets/Img/bs1.png";
 
 // best 
 // modern
@@ -48,6 +49,15 @@ export const Thema= [
     price: 240000,
     demo: "https://pernikahan-digital.vercel.app/Tamu",
   },
+  {
+    id: 4,
+    category: "best",
+    title: "BS1",
+    image: B1,
+    price: 240000,
+    demo: "https://wedding-b1.vercel.app/Tamu",
+  },
+
 
 
 ];
