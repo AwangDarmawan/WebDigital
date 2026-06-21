@@ -16,12 +16,13 @@ import nikahflix from "../../assets/Img/nikahflix.png";
 import Bunga from "../../assets/Img/Bunga3.png";
 import Alam from "../../assets/Img/Alam.png";
 import B1 from "../../assets/Img/bs1.png";
+import TP1 from "../../assets/Img/Tp1.png"
 
 // best 
 // modern
 // adat 
 // nopoto
-export const Thema= [
+export const Thema = [
   {
     id: 1,
     category: "modern",
@@ -52,12 +53,20 @@ export const Thema= [
   {
     id: 4,
     category: "best",
-    title: "BS1",
+    title: "BS-1",
     image: B1,
     price: 240000,
     demo: "https://wedding-b1.vercel.app/Tamu",
   },
 
+   {
+    id: 5,
+    category: "nopoto",
+    title: "TP-1",
+    image: TP1,
+    price: 200000,
+    demo: "https://wedding-tp1.vercel.app/Tamu",
+  },
 
 
 ];
