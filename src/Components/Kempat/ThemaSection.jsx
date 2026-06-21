@@ -7,7 +7,7 @@ import {
 
 import ThemeFilter from "./ThemaFilter";
 
-import { FaPaperPlane } from "react-icons/fa";
+import { FaPaperPlane, FaWhatsapp } from "react-icons/fa";
 
 export default function ThemaSection() {
   const [showAll, setShowAll] = useState(false);
@@ -353,6 +353,44 @@ export default function ThemaSection() {
 
                     Lihat Demo
                   </button>
+                     
+                     <button
+  onClick={() =>
+    window.open(
+      `https://wa.me/6283125307355?text=${encodeURIComponent(
+        `Halo, saya ingin bertanya mengenai tema undangan ${theme.demo}`
+      )}`,
+      "_blank"
+    )
+  }
+  className="
+    mt-3
+    w-full
+    py-2
+    md:py-3
+    rounded-lg
+    md:rounded-xl
+    bg-gradient-to-r
+    from-[#25D366]
+    via-[#20BD5A]
+    to-[#128C7E]
+    text-white
+    text-[11px]
+    sm:text-xs
+    md:text-base
+    font-semibold
+    flex
+    items-center
+    justify-center
+    gap-1
+    md:gap-2
+    transition-all
+    hover:scale-105
+  "
+>
+  <FaWhatsapp />
+  Pesan
+</button>
                 </div>
               </div>
               
