@@ -15,25 +15,57 @@ export default function WhatsAppButton() {
 
         flex
         items-center
-        justify-center
+        gap-3
 
-        w-14 h-14
-        sm:w-16 sm:h-16
+        px-4
+        py-2
 
         rounded-full
 
-        bg-[#25D366]
-        text-white
+        bg-white
+        border
+        border-green-200
 
-        shadow-[0_10px_30px_rgba(37,211,102,0.4)]
+        shadow-[0_10px_30px_rgba(37,211,102,0.25)]
 
         transition-all
         duration-300
 
-        hover:scale-110
+        hover:scale-105
       "
     >
-      <FaWhatsapp className="text-3xl sm:text-4xl" />
+      {/* Text */}
+      <span
+        className="
+          text-sm
+          sm:text-base
+          font-semibold
+          text-gray-700
+          whitespace-nowrap
+      italic
+        "
+      >
+        Pesan Sekarang
+      </span>
+
+      {/* Icon */}
+      <div
+        className="
+          flex
+          items-center
+          justify-center
+
+          w-10 h-10
+          sm:w-12 sm:h-12
+
+          rounded-full
+
+          bg-[#25D366]
+          text-white
+        "
+      >
+        <FaWhatsapp className="text-xl sm:text-2xl" />
+      </div>
     </a>
   );
 }

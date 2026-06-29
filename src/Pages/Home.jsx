@@ -4,6 +4,7 @@ import SectionPertanyaan from "../Components/Kelima/SectionPertanyaan"
 import ThemaSection from "../Components/Kempat/ThemaSection"
 
 import Promo from "../Components/Ketiga/Promo"
+import StepSection from "../Components/Ketujuh/StepSection"
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Pertama/Hero"
 import WhatsAppButton from "../Components/WhatsAppButton"
@@ -28,6 +29,7 @@ function Home() {
       <CustomerSection/>
       <ThemaSection/>
       <SectionPertanyaan/>
+      <StepSection/>
       <WhatsAppButton/>
     
       </div>
