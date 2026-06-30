@@ -17,7 +17,7 @@ export default function KeyFeatures() {
   return (
     <div className="w-full mt-5">
       {/* Title */}
-      <h2
+      <h2 data-aos="fade-up-right" 
         className="
         text-center
 
@@ -79,6 +79,7 @@ to-[#8B6B2E]
         {features.map((item, index) => (
           <div
             key={index}
+              data-aos={index % 2 === 0 ? "fade-up-right" : "fade-up-left"}
             className="
             group
             relative

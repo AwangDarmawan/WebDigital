@@ -15,20 +15,22 @@ export default {
         inter: ["Inter", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
       },
-    },
-    keyframes: {
-      scroll: {
-        "0%": {
-          transform: "translateX(0)",
-        },
-        "100%": {
-          transform: "translateX(-50%)",
+      keyframes: {
+        scroll: {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "100%": {
+            transform: "translateX(-50%)",
+          },
         },
       },
-    },
-    animation: {
-      scroll: "scroll 25s linear infinite",
+
+      animation: {
+        scroll: "scroll 25s linear infinite",
+      },
     },
   },
+
   plugins: [],
 };

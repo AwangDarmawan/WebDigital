@@ -31,7 +31,7 @@ export default function StepSection() {
             Step BY Step
           </span>
 
-          <h2
+          <h2 data-aos="fade-up"
             className="
               mt-5
               text-3xl
@@ -65,12 +65,13 @@ export default function StepSection() {
         {/* Card */}
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
-          {StepData.map((step) => {
+          {StepData.map((step,index) => {
             // const Icon = step.img;
 
             return (
               <article
   key={step.id}
+  data-aos={index % 2 === 0 ? "fade-up-right" : "fade-up-left"}
   className="
     group
     overflow-hidden

@@ -73,7 +73,7 @@ export default function Promo() {
               sm:text-sm
 
               font-semibold
-                 animate-pulse
+              animate-pulse
             "
             >
               <Sparkles size={16} />

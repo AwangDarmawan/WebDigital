@@ -185,7 +185,7 @@ text-white
           {/* RIGHT */}
 
           <div
-            data-aos="zoom-in"
+            data-aos="fade-down-left"
             className="
             flex
             justify-center
@@ -196,7 +196,7 @@ text-white
 
             "
           >
-            <img
+            <img 
               src={HeroImage}
               alt="4da Digital"
               className="

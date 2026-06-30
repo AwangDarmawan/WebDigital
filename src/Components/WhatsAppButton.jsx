@@ -35,7 +35,7 @@ export default function WhatsAppButton() {
       "
     >
       {/* Text */}
-      <span
+      <span data-aos="fade-down-left"
         className="
           text-sm
           sm:text-base

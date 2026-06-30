@@ -55,6 +55,7 @@ export default function SectionPertanyaan() {
           </div>
 
           <h2
+          data-aos="fade-down"
             className="
               mt-6
 
@@ -73,6 +74,7 @@ export default function SectionPertanyaan() {
               text-transparent
               font-poppins
               font-black
+
             "
           >
             Pertanyaan Umum
@@ -105,6 +107,7 @@ export default function SectionPertanyaan() {
             (faq, index) => (
               <div
                 key={index}
+                data-aos={index % 2 === 0 ? "fade-up-right" : "fade-up-left"}
                 className="
                   overflow-hidden
 

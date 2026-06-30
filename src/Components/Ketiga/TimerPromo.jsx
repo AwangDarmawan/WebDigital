@@ -91,6 +91,7 @@ export default function TimerPromo({ targetDate }) {
             font-black
 
             text-[#C9A227]
+            font-space
           "
           >
             {String(item.value).padStart(2, "0")}
@@ -104,6 +105,7 @@ export default function TimerPromo({ targetDate }) {
             sm:text-sm
 
             text-[#7A6850]
+            italic
           "
           >
             {item.label}

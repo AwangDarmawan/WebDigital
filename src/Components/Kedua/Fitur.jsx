@@ -144,7 +144,7 @@ to-[#8B6B2E]
             lg:order-2
             "
           >
-            <div data-aos="fade-zoom-in-right" className="relative">
+            <div data-aos="fade-down-left" className="relative">
               <div
                 className="
                 absolute

@@ -138,7 +138,7 @@ export default function ThemaSection() {
         >
           
       
-          {displayedThemes.map((theme) => {
+          {displayedThemes.map((theme, index) => {
             const saving =
               (theme.price *
                 DISCOUNT) /
@@ -151,6 +151,7 @@ export default function ThemaSection() {
               
               <div
                 key={theme.id}
+                 data-aos={index % 2 === 0 ? "fade-up-right" : "fade-up-left"}
                 className="
                 rounded-3xl
 
