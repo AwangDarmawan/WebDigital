@@ -27,7 +27,12 @@ const Pertanyaan = [
   {
     question: "Apakah undangan bisa dibagikan ke media sosial?",
     answer:
-      "Ya, undangan digital dapat dibagikan melalui WhatsApp, Instagram, Facebook, Telegram, dan platform lainnya.",
+      "Ya, undangan digital dapat dibagikan melalui melalui WhatsApp, Facebook, Twitter, atau salin teks undangan. Untuk Facebook Lite dan instagram, gunakan fitur salin teks karena berbagi langsung belum didukung",
+  },
+  {
+    question: "Apakah bisa custom tamu",
+    answer:
+      "Ya, undangan digital dapat custom nama tamu yang akan diundang melalui fitur custom nama agar setiap tamu mendapatkan undangan yang lebih personal",
   },
 ];
 export default Pertanyaan
