@@ -205,28 +205,7 @@ export default function ThemaSection() {
                 {/* CONTENT */}
 
                 <div className="p-2 sm:p-3 md:p-5">
-                    <span
-                    className="
-                      inline-block
-
-    mt-2
-
-  
-    py-1
-
-    rounded-full
-
-   
-    text-red-600
-
-    text-[9px]
-    sm:text-xs
-
-    font-bold
-                  "
-                  >
-                    {theme.mode}
-                  </span>
+                 
                
                   <h3
                     className="

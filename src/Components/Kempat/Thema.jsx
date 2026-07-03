@@ -29,7 +29,7 @@ export const Thema = [
     category: "modern",
     title: "Tema Netflix",
     image: nikahflix,
-    price: 240000,
+    price: 200000,
     demo: "https://nikahflix.vercel.app/Tamu",
   },
 
@@ -38,7 +38,7 @@ export const Thema = [
     category: "modern",
     title: "Tema Bunga",
     image: Bunga,
-    price: 240000,
+    price: 200000,
     demo: "https://wedding-alpi-ndah.vercel.app/Tamu",
   },
 
