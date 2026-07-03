@@ -24,17 +24,25 @@ import drawing from "../../assets/Img/drawing.png"
 // adat 
 // nopoto
 export const Thema = [
-  {
+    {
     id: 1,
-    category: "modern",
-    title: "Tema Netflix",
-    image: nikahflix,
+    category: "best",
+    title: "BS-1",
+    image: B1,
     price: 200000,
-    demo: "https://nikahflix.vercel.app/Tamu",
+    demo: "https://wedding-b1.vercel.app/Tamu",
+  },
+   {
+    id: 2,
+    category: "modern",
+    title: "Tema Drawing",
+    image: drawing,
+    price: 200000,
+    demo: "https://weeding-drawing.vercel.app/",
   },
 
   {
-    id: 2,
+    id: 3,
     category: "modern",
     title: "Tema Bunga",
     image: Bunga,
@@ -42,22 +50,16 @@ export const Thema = [
     demo: "https://wedding-alpi-ndah.vercel.app/Tamu",
   },
 
-  {
-    id: 3,
-    category: "modern",
-    title: "Tema Drawing",
-    image: drawing,
-    price: 200000,
-    demo: "https://weeding-drawing.vercel.app/",
-  },
-  {
+   {
     id: 4,
-    category: "best",
-    title: "BS-1",
-    image: B1,
+    category: "modern",
+    title: "Tema Netflix",
+    image: nikahflix,
     price: 200000,
-    demo: "https://wedding-b1.vercel.app/Tamu",
+    demo: "https://nikahflix.vercel.app/Tamu",
   },
+ 
+
 
    {
     id: 5,
