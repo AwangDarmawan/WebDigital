@@ -14,9 +14,10 @@ export const DISCOUNT = 60;
 
 import nikahflix from "../../assets/Img/nikahflix.png";
 import Bunga from "../../assets/Img/Bunga3.png";
-import Alam from "../../assets/Img/Alam.png";
+// import Alam from "../../assets/Img/Alam.png";
 import B1 from "../../assets/Img/bs1.png";
 import TP1 from "../../assets/Img/Tp1.png"
+import drawing from "../../assets/Img/drawing.png"
 
 // best 
 // modern
@@ -44,18 +45,17 @@ export const Thema = [
   {
     id: 3,
     category: "modern",
-    title: "Tema Alam",
-    mode: "Mode Siang & Malam",
-    image: Alam,
-    price: 240000,
-    demo: "https://pernikahan-digital.vercel.app/Tamu",
+    title: "Tema Drawing",
+    image: drawing,
+    price: 200000,
+    demo: "https://weeding-drawing.vercel.app/",
   },
   {
     id: 4,
     category: "best",
     title: "BS-1",
     image: B1,
-    price: 240000,
+    price: 200000,
     demo: "https://wedding-b1.vercel.app/Tamu",
   },
 

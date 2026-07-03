@@ -11,7 +11,7 @@ export default function KeyFeatures() {
     "Konfirmasi Kehadiran",
     "Musik Latar Otomatis",
     "Intro Tampilan awal",
-    "Custom Tamu Undangan"
+    "Custom Tamu Unlimited"
   ];
 
   return (
