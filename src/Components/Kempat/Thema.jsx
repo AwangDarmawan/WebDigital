@@ -42,7 +42,7 @@ export const Thema = [
   },
 
   {
-    id: 5,
+    id: 3,
     category: "nopoto",
     title: "TP-1",
     image: TP1,
