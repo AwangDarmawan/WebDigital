@@ -32,7 +32,7 @@ const Pertanyaan = [
    {
     question: "Apakah bisa pilih musik?",
     answer:
-      "Ya, kami untuk musik bisa request",
+      "Ya,untuk musik bisa request",
   },
   {
     question: "Apakah bisa custom tamu",
