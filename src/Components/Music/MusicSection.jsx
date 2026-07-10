@@ -1,26 +1,40 @@
 import { Disc3, Play, Pause } from "lucide-react";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import music from "../../assets/masaindah-nuca.mp3";
 
 export default function FloatingMusicButton() {
-  const audioRef = useRef(null);
-  const [playing, setPlaying] = useState(false);
+ const audioRef = useRef(null);
+const [playing, setPlaying] = useState(false);
 
-  const toggleMusic = async () => {
-    if (!audioRef.current) return;
+useEffect(() => {
+  const shouldPlay = localStorage.getItem("playMusic");
 
-    try {
-      if (playing) {
-        audioRef.current.pause();
-      } else {
-        await audioRef.current.play();
-      }
+  if (shouldPlay === "true") {
+    audioRef.current
+      ?.play()
+      .then(() => {
+        setPlaying(true);
+      })
+      .catch((err) => console.log(err));
 
-      setPlaying(!playing);
-    } catch (err) {
-      console.error(err);
+    localStorage.removeItem("playMusic");
+  }
+}, []);
+const toggleMusic = async () => {
+  if (!audioRef.current) return;
+
+  try {
+    if (playing) {
+      audioRef.current.pause();
+      setPlaying(false);
+    } else {
+      await audioRef.current.play();
+      setPlaying(true);
     }
-  };
+  } catch (err) {
+    console.error(err);
+  }
+};
 
   return (
     <>
@@ -91,14 +105,15 @@ export default function FloatingMusicButton() {
               flex
               items-center
               justify-center
+              font-bold
             "
           >
             {playing ? (
-              <Pause size={10} className="text-[#8B6B2E]" />
+              <Pause size={10} className="text-black/55 " />
             ) : (
               <Play
                 size={10}
-                className="text-[#8B6B2E] ml-[1px]"
+                className="text-black/55  ml-[1px]"
               />
             )}
           </div>

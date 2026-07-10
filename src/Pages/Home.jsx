@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react"
 import Fitur from "../Components/Kedua/Fitur"
 import CustomerSection from "../Components/Keenam/CustomerSection"
 import SectionPertanyaan from "../Components/Kelima/SectionPertanyaan"
@@ -12,6 +13,21 @@ import WhatsAppButton from "../Components/WhatsAppButton"
 
 // GithubAwangDr/Web-Digital-Wedding
 function Home() {
+       const audioRef = useRef(null);
+const [isPlaying, setIsPlaying] = useState(false);
+// state swipe all
+// const [scrollDirection, setScrollDirection] = useState("down");
+
+
+useEffect(() => {
+  const shouldPlay = localStorage.getItem("playMusic");
+
+  if (shouldPlay === "true") {
+    audioRef.current?.play().then(() => {
+      setIsPlaying(true);
+    }).catch(() => {});
+  }
+}, []);
   return (
     <>
      <div
@@ -32,7 +48,7 @@ function Home() {
       <ThemaSection/>
       <SectionPertanyaan/>
       <StepSection/>
-      <MusicSection/>
+      <MusicSection isPlaying={isPlaying}/>
       <WhatsAppButton/>
     
       </div>

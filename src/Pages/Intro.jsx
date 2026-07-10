@@ -6,7 +6,13 @@ import { motion } from "framer-motion";
 
 
 function Intro() {
+
   const navigate = useNavigate();
+  const handleOpen = () => {
+  localStorage.setItem("playMusic", "true");
+
+  navigate("/home");
+};
 
   return (
     <section
@@ -175,7 +181,7 @@ font-black
         {/* Button */}
 <div className="mt-8 flex justify-center">
   <button
-    onClick={() => navigate("/home")}
+   onClick={handleOpen}
     data-aos="fade-up-right"
     className="
     group
