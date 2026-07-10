@@ -29,7 +29,7 @@ export const Thema = [
     category: "best",
     title: "BS-1",
     image: B1,
-    price: 200000,
+    price: 250000,
     demo: "https://wedding-b1.vercel.app/Tamu",
   },
    {
@@ -42,13 +42,14 @@ export const Thema = [
   },
 
   {
-    id: 3,
-    category: "modern",
-    title: "Tema Bunga",
-    image: Bunga,
+    id: 5,
+    category: "nopoto",
+    title: "TP-1",
+    image: TP1,
     price: 200000,
-    demo: "https://wedding-alpi-ndah.vercel.app/Tamu",
+    demo: "https://wedding-tp1.vercel.app/Tamu",
   },
+ 
 
    {
     id: 4,
@@ -59,16 +60,16 @@ export const Thema = [
     demo: "https://nikahflix.vercel.app/Tamu",
   },
  
-
-
-   {
+ {
     id: 5,
-    category: "nopoto",
-    title: "TP-1",
-    image: TP1,
+    category: "modern",
+    title: "Tema Bunga",
+    image: Bunga,
     price: 200000,
-    demo: "https://wedding-tp1.vercel.app/Tamu",
+    demo: "https://wedding-alpi-ndah.vercel.app/Tamu",
   },
+
+   
 
 
 ];

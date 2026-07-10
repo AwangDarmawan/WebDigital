@@ -17,7 +17,7 @@ const Pertanyaan = [
   {
     question: "Apakah bisa menggunakan foto sendiri?",
     answer:
-      "Tentu. Anda dapat mengirimkan foto terbaik yang ingin ditampilkan pada undangan digital.",
+      "Tentu. Anda dapat mengirimkan foto berapa aja tak terbatas yang terbaik ingin ditampilkan pada undangan digital.",
   },
   {
     question: "Metode pembayaran apa saja yang tersedia?",
@@ -32,7 +32,7 @@ const Pertanyaan = [
   {
     question: "Apakah bisa custom tamu",
     answer:
-      "Ya, undangan digital dapat custom nama tamu yang akan diundang melalui fitur custom nama agar setiap tamu mendapatkan undangan yang lebih personal",
+      "Ya, undangan digital dapat custom nama tamu unlimited tak terbatas yang akan diundang melalui fitur custom nama agar setiap tamu mendapatkan undangan yang lebih personal",
   },
 ];
 export default Pertanyaan

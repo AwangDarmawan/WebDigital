@@ -58,7 +58,7 @@ export default function StepSection() {
           </h2>
 
           <p className="  font-poppins font-black mt-5 max-w-2xl mx-auto text-sm sm:text-base lg:text-lg text-[#7A6850] leading-7">
-            Mudah di bagikan dan bisa request tamu dan tambah isi undangan
+            Mudah di bagikan dan bisa request tamu TAK TERBATAS dan tambah isi undangan
           </p>
         </div>
 
