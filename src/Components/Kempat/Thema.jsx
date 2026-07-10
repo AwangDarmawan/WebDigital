@@ -35,7 +35,7 @@ export const Thema = [
    {
     id: 2,
     category: "modern",
-    title: "Tema Drawing",
+    title: "Tema Kids Drawing",
     image: drawing,
     price: 200000,
     demo: "https://weeding-drawing.vercel.app/Custom Tamu",
