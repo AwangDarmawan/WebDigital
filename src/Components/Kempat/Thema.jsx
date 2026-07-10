@@ -38,7 +38,7 @@ export const Thema = [
     title: "Tema Drawing",
     image: drawing,
     price: 200000,
-    demo: "https://weeding-drawing.vercel.app/",
+    demo: "https://weeding-drawing.vercel.app/Custom Tamu",
   },
 
   {
