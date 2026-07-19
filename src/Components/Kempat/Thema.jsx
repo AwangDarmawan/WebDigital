@@ -19,14 +19,24 @@ import B1 from "../../assets/Img/bs1.png";
 import B2 from "../../assets/Img/bs2.png"
 import TP1 from "../../assets/Img/Tp1.png"
 import drawing from "../../assets/Img/drawing.png"
+import Adat1 from "../../assets/Img/adats1.png"
 
 // best 
 // modern
 // adat 
 // nopoto
 export const Thema = [
-    {
+
+  {
     id: 1,
+    category: "adat",
+    title: "Motion + Adat 1",
+    image: Adat1,
+    price: 250000,
+    demo: "https://tema-adat-1.vercel.app/Custom%20Tamu",
+  },
+    {
+    id: 2,
     category: "best",
     title: "BS-1",
     image: B1,
@@ -34,7 +44,7 @@ export const Thema = [
     demo: "https://wedding-b1.vercel.app/Tamu",
   },
       {
-    id: 2,
+    id: 3,
     category: "best",
     title: "BS-2",
     image: B2,
@@ -42,7 +52,7 @@ export const Thema = [
     demo: "https://best-seller2.vercel.app/Custom Tamu",
   },
    {
-    id: 3,
+    id: 4,
     category: "modern",
     title: "Tema Kids Drawing",
     image: drawing,
@@ -51,7 +61,7 @@ export const Thema = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: "nopoto",
     title: "TP-1",
     image: TP1,
@@ -61,7 +71,7 @@ export const Thema = [
  
 
    {
-    id: 5,
+    id: 6,
     category: "modern",
     title: "Tema Netflix",
     image: nikahflix,
@@ -70,7 +80,7 @@ export const Thema = [
   },
  
  {
-    id: 6,
+    id: 7,
     category: "modern",
     title: "Tema Bunga",
     image: Bunga,
