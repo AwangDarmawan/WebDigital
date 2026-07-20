@@ -25,7 +25,7 @@ function Home() {
     name="description"
     content="4daDigital jasa pembuatan undangan digital pernikahan modern dengan harga super hemat, mulai dari Rp 50.000 hingga Rp 200.000 saja! Tersedia ratusan pilihan template premium, mulai dari konsep adat nusantara yang sakral hingga gaya modern minimalis. Undangan sangat fleksibel (bisa pakai foto maupun tanpa foto) dan sudah dilengkapi fitur bebas custom nama tamu undangan sepuasnya tanpa batas!"
   />
-
+    
   <meta
     name="keywords"
     content="undangan digital, undangan digital pernikahan, website undangan, undangan online"
