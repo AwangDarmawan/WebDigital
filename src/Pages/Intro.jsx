@@ -171,7 +171,7 @@ font-black
   drop-shadow-[0_0_15px_rgba(201,162,39,0.25)]
         "
         >
-          Kami menyediakan layanan pembuatan undangan digital yang elegan, modern, dan mudah dibagikan untuk berbagai acara spesial Anda. Jadikan momen berharga Anda lebih berkesan! Ayo buruan pesan sekarang, dapatkan diskon 60% dan Anda sudah bisa mendapatkan desain premium! Khusus bulan ini, harga normal Rp 200.000 jadi cuma Rp 80.000 saja!
+          Kami menyediakan layanan pembuatan undangan digital yang elegan, modern, dan mudah dibagikan , cutom tamu tak terbatas untuk berbagai acara spesial Anda. Jadikan momen berharga Anda lebih berkesan! Ayo buruan pesan sekarang, dapatkan  <span className="text-[#e4b20f] animate-pulse font-extrabold">diskon 60%</span>. dan Anda sudah bisa mendapatkan desain premium! Khusus bulan ini, harga normal Rp 200.000 jadi cuma Rp 80.000 saja!.
          
        
         </h2>
