@@ -18,7 +18,7 @@ function Home() {
 <Helmet>
   {/* Primary SEO */}
   <title>
-    Undangan Digital
+    Undangan Digital | 4daDigital
   </title>
 
   <meta
