@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 
 function Intro() {
 
+  
+
   const navigate = useNavigate();
   const handleOpen = () => {
   localStorage.setItem("playMusic", "true");
