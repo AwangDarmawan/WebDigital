@@ -21,7 +21,7 @@ function Intro() {
     
   <meta
     name="keywords"
-    content="undangan digital, undangan digital pernikahan, website undangan, undangan online"
+    content="undangan digital, undangan digital pernikahan, website 4digital, undangan online"
   />
 
   <meta name="author" content="4daDigital" />
