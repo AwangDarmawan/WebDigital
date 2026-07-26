@@ -13,13 +13,17 @@ export default function ThemeFilter({
     },
 
     {
-      label: "Tema Modern",
+      label: "Modern",
       value: "modern",
     },
 
     {
       label: "Motion + Adat",
       value: "adat",
+    },
+     {
+      label: "Tasyakuran",
+      value: "tasyakuran",
     },
     {
       label: "Tanpa Poto",

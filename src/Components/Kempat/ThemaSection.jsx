@@ -368,7 +368,7 @@ export default function ThemaSection() {
     hover:scale-105
   "
 >
-  <FaWhatsapp />
+  <FaWhatsapp  size={20}/>
   Pesan
 </button>
                 </div>
