@@ -18,6 +18,7 @@ import Bunga from "../../assets/Img/Bunga3.png";
 import B1 from "../../assets/Img/bs1.png";
 import B2 from "../../assets/Img/bs2.png"
 import TP1 from "../../assets/Img/Tp1.png"
+import TP2 from "../../assets/Img/Tp2.png"
 import drawing from "../../assets/Img/drawing.png"
 import Adat1 from "../../assets/Img/adats1.png"
 import Adat2 from "../../assets/Img/adat2.png"
@@ -78,8 +79,17 @@ export const Thema = [
     demo: "https://weeding-drawing.vercel.app/Custom%20Tamu",
   },
 
-  {
+   {
     id: 7,
+    category: "nopoto",
+    title: "TP-2 + Adat",
+    image: TP2,
+    price: 200000,
+    demo: "https://wedding-tp-2.vercel.app/Custom%20tamu",
+  },
+
+  {
+    id: 8,
     category: "nopoto",
     title: "TP-1",
     image: TP1,
@@ -89,7 +99,7 @@ export const Thema = [
  
 
    {
-    id: 8,
+    id: 9,
     category: "modern",
     title: "Tema Netflix",
     image: nikahflix,
@@ -98,7 +108,7 @@ export const Thema = [
   },
  
  {
-    id: 9,
+    id: 10,
     category: "modern",
     title: "Tema Bunga",
     image: Bunga,
